@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>practice</title>
+</head>
+<body>
+	<input type="number" id='elem' value="">
+	<input type="number" id='elem1' value="">
+	<input type="number" id='elem2' value="">
+	<input type="button" value="result" id="button">
+	<input type="text" id="result">
+	
+
+
+
+
+	<script type="text/javascript">
+		let elem=document.getElementById('elem');
+		let elem1=document.getElementById('elem1');
+		let elem2=document.getElementById('elem2');
+		let result=document.getElementById('result');
+		let btn=document.getElementById('button');
+			btn.addEventListener('click',func);
+
+		function func(){
+			result.value=Number(elem.value)+Number(elem1.value)+Number(elem2.value);
+		}
+
+	</script>
+
+
+
+
+
+
+</body>
+</html>
